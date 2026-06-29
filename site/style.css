@@ -233,7 +233,7 @@ nav{
 }
 .card-img-placeholder{
     position: absolute;
-    background: linear-gradient(160deg, ddd5ff 0%, #f8d7fa 100%);
+    background: linear-gradient(160deg, #ddd5ff 0%, #f8d7fa 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,11 +243,11 @@ nav{
    
 }
 .card .featured .card-img-placeholder{
-    background: linear-gradient(160deg, #a78bfa 0%, #ee879f9 100%);
+     background: linear-gradient(160deg, #a78bfa 0%, #e879f9 100%);
 }
 .card-info{
     position: relative;
-    background: linear-gradient(to top rgba(20,10,40,0,82) 0%, transparent 100%);
+    background: linear-gradient(to top rgba(20,10,40,0.82) 0%, transparent 100%);
     padding: 20px 18px 18px;
     color: #fff;
 }
@@ -256,7 +256,7 @@ nav{
     margin-bottom: 6px;
 }
 .card-info p{
-    color: white;
+    color:white;
     line-height: 1.5;
     margin-bottom: 12px;
 }
@@ -267,7 +267,7 @@ nav{
     color: white;
 }
 .card-tag::before{
-    content: "𑣲⋆";
+    content: "❤︎";
     color: #e57ae0;
 }
 .carousel-controls{
@@ -288,7 +288,7 @@ nav{
     align-items: center;
     justify-content: center;
     transition: background .2s, transform .15s;
-    font-size: 10px;
+    font-size: 20px;
 }
 .carousel-btn:hover{
     background-color: #24105c;
@@ -318,7 +318,7 @@ footer{
 .footer-socials a{
     width: 30px;
     height: 30px;
-    background-color: rgba(108,43,255,0.1);
+    background-color: rgba(108, 43, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
